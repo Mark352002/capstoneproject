@@ -1,0 +1,259 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+:root{
+  --lg-font: 'Kaisei Tokumin', serif;
+  --sm-font: 'Poppins', sans-serif;
+  --pink: #e5345b;
+--gold: #bd8b28;
+--golds: #d4af37;
+--blue:  #0700c4;
+--red: #830a1b;
+}
+.btn-gray {
+background: #6C757D ;
+color: white;
+}
+.reda{
+  color: red;
+}
+.register{
+  width: 700px;
+  margin: auto;
+  margin-top: 100px;
+  /* border: 1px solid black; */
+}
+.pagemargin{
+  margin-top: 100px;
+
+}
+.error{
+  margin: 0 110px 0 110px;
+  margin-top: 83px;
+  list-style-type: none;
+}
+
+/* Price start */
+.collection-img span{/*sale logo*/
+  top: 8px;
+  right: 8px;
+  width: 150px;
+  height: 30px;
+  border-radius: 3%;
+}
+.price{
+  background-color: var(--red)!important; /* button 10 5  cart heart*/
+}
+/* Price end */
+
+/* selected shoes start image */
+.small-img-group{
+display: flex;
+justify-content: space-between;
+}
+
+.small-img-col{
+flex-basis: 24%;
+cursor: pointer;
+}
+/* selected shoes start image */
+.search{
+  position: relative;
+  top: -90px;
+  z-index: 2;
+}
+.logo{
+  width: 110px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.card {
+  /* border: 1px solid #ccc; */
+  background-position: center;
+
+  /* Set a height for the card, adjust as needed */
+  transition: all 0.5s ease; /* Add transition for smooth animation */
+  transform-origin: top left; /* Set the transform origin to the top-left corner */
+}
+.card:hover {
+  background-position: 80%; /* Move background on hover */
+  transform: rotateX(-15deg) rotateY(-15deg); /* Rotate the card on the X and Y axes */
+}
+/* .shadow-lg:hover{
+  width: 200px;
+      height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px blue;
+  margin: 20px;
+} */
+.card-btn{
+  border: 0px;
+  background: none;
+}
+
+.hr-title{
+  width: 105px;
+  border: 1px solid #C0C0C0;
+  color: #C0C0C0;
+  opacity: 1;
+}
+
+.btn-dark{
+  background: #00aa32 !important;
+  border: 0px;
+}
+/* footer */
+footer{
+  background: #212529;
+    
+}
+.footer-title{
+      color: white;
+      font-weight: 500 !important;
+      font-size: 20px;
+}
+.footer-li,.f,.con {
+  color:  #6C757D !important;
+  font-size: 18px !important;
+  font-weight: 500;
+  text-decoration: none;
+}
+.icons{
+  color:  #6C757D !important;
+}
+.fa-brands{
+  font-size: 28px !important;
+  margin-left: 15px;
+}
+.btn-subs{
+  width: 102px;
+  height: 45px;
+  border-radius: 0 50px 50px 0;
+}
+.sub{
+  height: 45px;
+  width: 200px;
+  border-radius: 50px 0 0 50px;
+}
+.footer-hr{
+  color:  #6C757D !important;
+  width: 100%;
+  opacity: 0.5;
+}
+
+/* gallery */
+.gal{
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:50px 8%;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap:30px;
+
+}
+.gallery img{
+  width:100%
+}
+
+
+
+#offers{
+  background: url(./images//index/offer_img.jpg) center/cover no-repeat;
+}
+#offers .row{
+  min-height: 60vh;
+}
+.offers-content span{
+  font-size: 28px;
+}
+.offers-content h2{
+  font-size: 60px;
+  font-family: var(--lg-font);
+}
+.offers-content .btn{
+  border-color: transparent!important;
+}
+
+.offer-btn{
+  background: white;
+  border-radius: 25px;
+  height: 40px;
+  width: 120px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.no-item{
+border: 2px dashed #000; /* Dashed border style and color */
+border-radius: 4px; /* Rounded corners */
+padding: 10px;
+width: 20%;
+}
+@media only screen and (max-width: 991px) {
+  .nav-acc{
+      margin-left: 350px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-acc{
+      margin-left: 200px;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .nav-acc{
+      margin-left: 150px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .nav-acc{
+      margin: auto;
+  }
+}
+
+.btn-pass{
+  border-radius: 0 50px 50px 0;
+}
+.inp-pass{
+  border-radius:  50px 0 0 50px ;
+}
+.pagemargin{
+  margin-top: 600px;
+}
+.chat{
+  background: #0a7cff;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  border-radius: 50px;
+}
+
+.reply{
+  background: #f0f0f0;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+}
+
+
+
