@@ -3,7 +3,6 @@ import Item from './Item'
 import Carousel from './Carousel'
 import Adds from './Adds'
 import Blogs from './Blogs'
-import Footer from '../common/Footer'
 
 const Home = () => {
   return (

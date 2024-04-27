@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 import { Nav,  NavDropdown, Navbar } from 'react-bootstrap';
 
 const NavBar = (props) => { 
+  
     // logout function variable
     const logout = ()=>{
         localStorage.clear();
         props.setUser(null);
     }
     // create variable to hold the data
-    let buttons, profile,navBar;
+    let navBar;
     if (localStorage.getItem('token')) {
         // change the content of button
       

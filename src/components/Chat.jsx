@@ -68,7 +68,7 @@ const formSubmit = (e) => {
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
        
        <div className='reply'>Hi! How can we help you?</div>
-   </div>
+   </div>   
                 {chat.map(chat => (
   <div key={chat.id}>
     {/* Check if both chat and reply are not null or no data */}
