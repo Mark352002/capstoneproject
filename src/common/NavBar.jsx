@@ -13,14 +13,6 @@ const NavBar = (props) => {
     if (localStorage.getItem('token')) {
         // change the content of button
       
-        profile=(
-            <div>
-                <Link className="nav-link active" to="/profile">Profile</Link>
-                <Link className="nav-link active" to="/saved">Saved</Link>
-                <Link className="nav-link active" to="/pending">Orders</Link>
-                <Link className="nav-link active" to="/chat">Chat</Link>
-            </div>
-        )
         navBar=(
           <Navbar bg="white" expand="lg" className="shadow-sm fixed-top">
           <div className="container py-1">
@@ -89,18 +81,7 @@ const NavBar = (props) => {
         </div>
       </Navbar>
       )
-        buttons = (
-            <div>
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
-                    <Link className="nav-link active" to="/login">Login</Link>
-                    </li>
-                    <li className="nav-item">
-                    <Link className="nav-link active" to="/register">Register</Link>
-                    </li>
-                </ul>
-            </div>
-        );
+  
     }
   return (
     <div>

@@ -7,11 +7,6 @@ import { MdEmail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 const Footer= (props) => { 
-  // logout function variable
-  const logout = ()=>{
-      localStorage.clear();
-      props.setUser(null);
-  }
   // create variable to hold the data
   let Chat;
   if (localStorage.getItem('token')) {

@@ -9,7 +9,7 @@ import Forget from '../components/Forget'
 import Reset from '../components/Reset'
 import axios from 'axios'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Selected_item from '../components/Selected_item'
+import SelectedItem from '../components/Selected_item'
 import SavedItem from '../components/SavedItem'
 import Pending from '../components/Pending'
 import ToShip from '../components/ToShip'
@@ -61,7 +61,7 @@ const Header = () => {
                     </Protected>
                 }/>
 
-                <Route path='/item/:id' element={<Selected_item user={user} setUser={setUser}/>}/>
+                <Route path='/item/:id' element={<SelectedItem user={user} setUser={setUser}/>}/>
                 <Route path='/saved' element={<SavedItem user={user} setUser={setUser}/>}/>
                 <Route path='/pending' element={<Pending user={user} setUser={setUser}/>}/>
                 <Route path='/toship' element={<ToShip user={user} setUser={setUser}/>}/>
