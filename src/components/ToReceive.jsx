@@ -17,7 +17,7 @@ const ToReceive = (props) => {
             .catch(error => {
                 console.error('Error fetching data', error);
             })
-    }, []);
+    }, [user_id]);
 
     // const handleRemove = (id) => {
     //     axios.get(`/saved/delete/${id}`)

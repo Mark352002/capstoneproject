@@ -17,7 +17,7 @@ const Pending = (props) => {
             .catch(error => {
                 console.error('Error fetching data', error);
             })
-    }, []);
+    }, [user_id]);
 
     const CancelOrder = (id) => {
         axios.post(`/order/cancel/${id}`, { status: 'Cancelled' })

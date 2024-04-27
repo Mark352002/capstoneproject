@@ -55,7 +55,7 @@ const formSubmit = (e) => {
         .catch(error=>{   
           console.error('Error fetching data',error);
         })
-      },[]);
+      },[user_id]);
 
     return (
         <div>
