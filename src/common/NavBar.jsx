@@ -32,7 +32,7 @@ const NavBar = (props) => {
   
             {/* Centered paragraph with image */}
             <div className="text-center mx-auto">
-              <p><img src="image/index/search.png" alt="" style={{ width: '90px' }} /></p>
+              {/* <p><img src="image/index/search.png" alt="" style={{ width: '90px' }} /></p> */}
             </div>
   
             <Navbar.Toggle className="ms-3" aria-controls="navbarNavAltMarkup" />
@@ -65,7 +65,7 @@ const NavBar = (props) => {
 
           {/* Centered paragraph with image */}
           <div className="text-center mx-auto">
-          <img src={require('../images/logos/logo_like.png')} className="logo" alt=""/>
+          {/* <img src={require('../images/logos/logo_like.png')} className="logo" alt=""/> */}
             {/* <p><img src="image/index/search.png" /></p> */}
           </div>
 
